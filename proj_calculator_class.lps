@@ -19,9 +19,9 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="FMain"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos Y="11"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="10" Y="8"/>
         <UsageCount Value="20"/>
-        <Loaded Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="ucalculator.pas"/>
@@ -40,6 +40,9 @@
         <UsageCount Value="10"/>
       </Unit3>
     </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="-1"/>
+    </General>
     <JumpHistory HistoryIndex="-1"/>
     <RunParams>
       <FormatVersion Value="2"/>
