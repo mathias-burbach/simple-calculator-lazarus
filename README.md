@@ -50,3 +50,5 @@ var
 ```
 
 Just follow the example project and you'll be fine.
+
+Added fpcunit test project.
