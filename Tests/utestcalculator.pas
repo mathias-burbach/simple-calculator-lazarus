@@ -121,7 +121,6 @@ begin
 end;
 
 initialization
-
   RegisterTest(TTestCalculator);
 end.
 

@@ -1,14 +1,14 @@
 // License: GNU GPL v3
 // source: https://github.com/adnan360/simple-calculator-lazarus
 
-unit calculatorunit;
+unit UCalculator;
 
 {$mode objfpc}{$H+}
 
 interface
 
 uses
-  Classes, SysUtils;
+  Classes;
 
 type
 
@@ -37,6 +37,9 @@ type
 
 
 implementation
+
+uses
+  SysUtils;
 
 { TCalculator }
 

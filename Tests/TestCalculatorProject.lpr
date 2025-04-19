@@ -3,7 +3,11 @@ program TestCalculatorProject;
 {$mode objfpc}{$H+}
 
 uses
-  Interfaces, Forms, GuiTestRunner, utestcalculator, calculatorunit;
+  Forms,
+  Interfaces,
+  GuiTestRunner,
+  UCalculator,
+  UTestCalculator;
 
 {$R *.res}
 

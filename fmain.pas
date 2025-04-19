@@ -1,18 +1,21 @@
-unit frm1;
+unit FMain;
 
 {$mode objfpc}{$H+}
 
 interface
 
 uses
-  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls,
-  calculatorunit;
+  Classes,
+  Forms,
+  Controls,
+  StdCtrls,
+  UCalculator;
 
 type
 
-  { TForm1 }
+  { TfrmMain }
 
-  TForm1 = class(TForm)
+  TfrmMain = class(TForm)
     btnNumber: TButton;
     btnNumber1: TButton;
     btnNumber10: TButton;
@@ -39,34 +42,34 @@ type
     procedure FormDestroy(Sender: TObject);
   private
     { private declarations }
+    FCalculator: TCalculator;
   public
     { public declarations }
   end;
 
 var
-  Form1: TForm1;
-  Calculator: TCalculator;
+  frmMain: TfrmMain;
 
 implementation
 
 {$R *.lfm}
 
-{ TForm1 }
+{ TfrmMain }
 
-procedure TForm1.btnNumberClick(Sender: TObject);
+procedure TfrmMain.btnNumberClick(Sender: TObject);
 begin
-  Calculator.SendInput( TButton(Sender).Caption );
-  edtDisplay.Text:=Calculator.GetDisplay;
+  FCalculator.SendInput( TButton(Sender).Caption );
+  edtDisplay.Text := FCalculator.GetDisplay;
 end;
 
-procedure TForm1.FormCreate(Sender: TObject);
+procedure TfrmMain.FormCreate(Sender: TObject);
 begin
-  Calculator:=TCalculator.Create;
+  FCalculator:=TCalculator.Create;
 end;
 
-procedure TForm1.FormDestroy(Sender: TObject);
+procedure TfrmMain.FormDestroy(Sender: TObject);
 begin
-  Calculator.Free;
+  FCalculator.Free;
 end;
 
 end.

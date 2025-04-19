@@ -41,8 +41,9 @@
         <IsPartOfProject Value="True"/>
       </Unit>
       <Unit>
-        <Filename Value="..\calculatorunit.pas"/>
+        <Filename Value="..\ucalculator.pas"/>
         <IsPartOfProject Value="True"/>
+        <UnitName Value="UCalculator"/>
       </Unit>
     </Units>
   </ProjectOptions>

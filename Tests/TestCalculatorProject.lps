@@ -9,26 +9,22 @@
         <Filename Value="TestCalculatorProject.lpr"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="-1"/>
-        <CursorPos X="-1" Y="-1"/>
+        <CursorPos X="9" Y="10"/>
         <UsageCount Value="20"/>
       </Unit>
       <Unit>
         <Filename Value="utestcalculator.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="-1"/>
-        <CursorPos Y="110"/>
+        <CursorPos X="10" Y="9"/>
         <UsageCount Value="20"/>
       </Unit>
       <Unit>
         <Filename Value="..\calculatorunit.pas"/>
-        <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <WindowIndex Value="-1"/>
-        <TopLine Value="77"/>
-        <CursorPos X="58" Y="99"/>
+        <TopLine Value="119"/>
+        <CursorPos X="3" Y="50"/>
         <UsageCount Value="20"/>
       </Unit>
       <Unit>
@@ -44,6 +40,15 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="40"/>
         <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\ucalculator.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UCalculator"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="64"/>
+        <UsageCount Value="20"/>
       </Unit>
     </Units>
     <General>
