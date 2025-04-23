@@ -15,8 +15,18 @@
       <Unit>
         <Filename Value="utestcalculator.pas"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="-1"/>
-        <CursorPos X="10" Y="9"/>
+        <CursorPos X="38" Y="14"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\ucalculator.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UCalculator"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="64"/>
+        <CursorPos X="44" Y="71"/>
         <UsageCount Value="20"/>
       </Unit>
       <Unit>
@@ -40,15 +50,6 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="40"/>
         <UsageCount Value="10"/>
-      </Unit>
-      <Unit>
-        <Filename Value="..\ucalculator.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="UCalculator"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="64"/>
-        <UsageCount Value="20"/>
       </Unit>
     </Units>
     <General>

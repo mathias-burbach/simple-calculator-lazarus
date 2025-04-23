@@ -6,7 +6,7 @@ interface
 
 uses
   fpcunit,
-  calculatorunit;
+  ucalculator;
 
 type
 
